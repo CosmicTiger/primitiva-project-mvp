@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/primitiva-backend/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/primitiva-backend/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/primitiva-backend",
+  "projects": {
+    "primitiva-backend": {
+      "type": "application",
+      "root": "apps/primitiva-backend",
+      "entryFile": "main",
+      "sourceRoot": "apps/primitiva-backend/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/primitiva-backend/tsconfig.app.json"
+      }
+    },
+    "primitiva-langchain-processor": {
+      "type": "application",
+      "root": "apps/primitiva-langchain-processor",
+      "entryFile": "main",
+      "sourceRoot": "apps/primitiva-langchain-processor/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/primitiva-langchain-processor/tsconfig.app.json"
+      }
+    }
+  }
+}

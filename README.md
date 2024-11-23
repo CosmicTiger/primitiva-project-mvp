@@ -3,6 +3,10 @@
 <div align="center" display="flex"> 
   <img src="./docs-assets/PRIMITIVA.png" width="250"/>
   <h1>PRIMITIVA</h1>
+
+  <p>The platform for conservationism and preservationism of Wildlife based on AI Tech. <br/>
+  <i>Because Life protects life!</i>
+  </p>
 </div>
 
 
