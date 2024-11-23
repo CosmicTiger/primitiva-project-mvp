@@ -27,6 +27,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/primitiva-langchain-processor/tsconfig.app.json"
       }
+    },
+    "primitiva-smart-contracts-handler": {
+      "type": "application",
+      "root": "apps/primitiva-smart-contracts-handler",
+      "entryFile": "main",
+      "sourceRoot": "apps/primitiva-smart-contracts-handler/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/primitiva-smart-contracts-handler/tsconfig.app.json"
+      }
     }
   }
 }
